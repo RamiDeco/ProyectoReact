@@ -1,0 +1,16 @@
+import { Spinner } from "react-bootstrap"
+
+const Loader = () => {
+  return (
+    <>
+      <div className="loader">
+        <Spinner className="loader-sppiner" animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </div>
+
+    </>
+  )
+}
+
+export default Spinner

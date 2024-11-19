@@ -5,26 +5,30 @@ const Carrousel = () => {
         <>
             <Carousel>
                 <Carousel.Item>
-                    <img height={400} width={400} src="/src/assets/images/proy1" alt="" />
+                    <img
+                    className="d-block, w-100"
+                    style={{height:"500px", objectFit:"cover"}} 
+                    src="src/assets/images/proy1.jpeg" alt="" />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Web Pro 1</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="" alt="" />
+                    <img 
+                    className="d-block, w-100"
+                    style={{height:"500px", objectFit:"cover"}} 
+                    src="src/assets/images/proy2.jpg" alt="" />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Web Pro 2</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src="" alt="" />
+                    <img 
+                    className="d-block, w-100"
+                    style={{height:"500px", objectFit:"cover"}} 
+                    src="src/assets/images/proy3.png" alt="" />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3>Web Pro 3</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
